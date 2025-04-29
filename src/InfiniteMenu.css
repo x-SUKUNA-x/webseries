@@ -1,0 +1,49 @@
+.infinite-menu-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+}
+
+.infinite-menu-scroll {
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.infinite-menu-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.infinite-menu-content {
+  display: inline-flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.infinite-menu-item {
+  padding: 0.8rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.infinite-menu-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.infinite-menu-item.active {
+  background: #ffffff;
+  color: #0a0a0a;
+} 
