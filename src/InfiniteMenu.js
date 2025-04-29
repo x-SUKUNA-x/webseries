@@ -1,10 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import './InfiniteMenu.css';
 
 const InfiniteMenu = ({ items, onSelect }) => {
   const containerRef = useRef(null);
-  const controls = useAnimation();
 
   useEffect(() => {
     const container = containerRef.current;
@@ -42,4 +41,4 @@ const InfiniteMenu = ({ items, onSelect }) => {
   );
 };
 
-export default InfiniteMenu; 
+export default InfiniteMenu;
