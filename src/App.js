@@ -137,7 +137,7 @@ const movieList = {
       rating: "7.7/10",
       year: "2015",
       description: "While investigating the disappearance of a chemist, a detective uncovers a larger conspiracy to unsettle Calcutta.",
-      image: "https://m.media-amazon.com/images/M/MV5BYTU1N2VmODMtMjQxZi00ZGRmLWIyZTEtMjg3YmNkZDNjNTc1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_.jpg",
+      image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuUzr0czyQ9uLvuNgLkN72o4JUrZ-jhSOPdCh483kSzdsQqhaUAgoAbHc1Dy4HZ1pd6FsvSA",
       youtubeLink: "https://www.youtube.com/watch?v=ZG--GOpi_0g",
     },
 
@@ -274,7 +274,7 @@ const movieList = {
       rating: "8.2/10",
       year: "2000",
       description: "Three unemployed men look for answers to all their money problems - but when their opportunity arrives, will they know what to do with it?",
-      image: "https://m.media-amazon.com/images/M/MV5BNDU3NDU5YmUtOWUwZC00NDczLTg4NGEtNGJiNDU5ZDgxZDY1XkEyXkFqcGdeQXVyODMyODMxNDY@._V1_.jpg",
+      image: "https://m.media-amazon.com/images/M/MV5BNDZmMGEwMjQtNjFlNi00ZGIxLTlkZjItNmU3Mzg4Y2E0ZjUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       youtubeLink: "https://www.youtube.com/watch?v=Nj4H-X3FAWU",
     },
 
@@ -412,7 +412,7 @@ const movieList = {
       rating: "7.6/10",
       year: "2014",
       description: "After being struck by lightning, Barry Allen become the next Flash with super speed power, fighting crime in Central City.",
-      image: "https://m.media-amazon.com/images/M/MV5BODIzNzYwNTctZWY4Mi00YjQ2LWI5YWYtMzdmNDgwMGI4Yzk1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      image: "https://m.media-amazon.com/images/M/MV5BYmE2NzBjNGUtNTJiMy00N2UxLWEyYzMtYzFjODFhMGZlOTgzXkEyXkFqcGc@._V1_.jpg",
       youtubeLink: "https://www.youtube.com/watch?v=Yj0l7iGKh8g",
     },
 
