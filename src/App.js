@@ -126,7 +126,7 @@ const movieList = {
       rating: "7.8/10",
       year: "2019",
       description: "A dynamic young entrepreneur finds herself locked in a hotel room with the corpse of her dead lover. She hires a prestigious lawyer to defend her.",
-      image: "https://m.media-amazon.com/images/M/MV5BYjZiMzIzYTctNDViZi00OWNmLWFmN2YtMmI2OWJiZWViMmY3XkEyXkFqcGdeQXVyNTYwMzA0MTM@._V1_.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_widqhB5xbGv1DtOWEgmsQjWijCFPN1CINpP3ETNWaYN_HRt-ToYoubOCkRAIxEJYQ_K",
       youtubeLink: "https://www.youtube.com/watch?v=mSlgu8AQAd4",
     },
 
@@ -194,7 +194,7 @@ const movieList = {
       rating: "8.2/10",
       year: "2017",
       description: "When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.",
-      image: "https://m.media-amazon.com/images/M/MV5BODY0NTQ0MzctNmNlMi00MWUxLThmNTEtMGFhNjczYmVjYjcxXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+      image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwAZddfdsmgj84MRQyRDfNxl-swkZRxt2IQX3gnLkzHl3EEzyD3dduWibKdNCCqOTyaL3WIw",
       youtubeLink: "https://www.youtube.com/watch?v=G62HrubdD6o",
     },
 
@@ -296,7 +296,7 @@ const movieList = {
       rating: "6.4/10",
       year: "2007",
       description: "Four lazy friends try to woo a rich girl, in order to live a wealthy lifestyle.",
-      image: "https://m.media-amazon.com/images/M/MV5BOTRiZDE0MjMtMDA0MS00MzU4LWFhMDctYTYwMmU2ZDFmMjViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5Kw8rt3ElYDY5cLuAANsjxDoCAa01qIWSXVWmiMMcHlTjbiPi75bIG_F9BbtunDQG-eRPVw",
       youtubeLink: "https://www.youtube.com/watch?v=vqH2cV1T9WE",
     },
 
