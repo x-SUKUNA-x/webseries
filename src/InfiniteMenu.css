@@ -21,9 +21,11 @@
 }
 
 .infinite-menu-content {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   gap: 1rem;
   padding: 0 1rem;
+  flex-wrap: wrap;
 }
 
 .infinite-menu-item {
