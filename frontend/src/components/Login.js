@@ -44,7 +44,7 @@ const Login = ({ setIsAuthenticated, initialSignup = false }) => {
     const handleSignupSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/signup`, signupData);
+            await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/signup`, signupData);
 
             // Auto login after signup by hitting the login endpoint to get the token
             const loginRes = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/login`, {

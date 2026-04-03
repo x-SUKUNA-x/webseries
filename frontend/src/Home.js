@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import GridMotion from "./GridMotion";
-import TextCursor from "./TextCursor";
+
 import "./styles.css";
 import "./components/HeroSection.css"; // Import Hero Styles
 import items from "./config/movieImages";
@@ -35,12 +35,6 @@ function Home() {
     }
   }, [searchParams]);
 
-  const listGenreHandler = (genre) => {
-    setSelectedGenre(genre);
-    setMovies(movieList[genre] || []);
-    setCurrentPage('genre');
-    setSearchParams({ genre });
-  };
 
   const goBack = () => {
     setCurrentPage('home');

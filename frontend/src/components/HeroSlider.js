@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FaChevronLeft, FaChevronRight, FaPlus, FaMinus } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaPlus } from 'react-icons/fa';
 import './HeroSlider.css';
 
 const HeroSlider = ({ items }) => {
