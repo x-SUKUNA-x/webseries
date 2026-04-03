@@ -47,26 +47,3 @@ webseries/
         └── index.js    # React DOM rendering entry point
 ```
 
-## 💻 Running Locally
-
-### 1. Start the Backend Server
-Navigate to the backend directory, install the necessary dependencies, and start the development server:
-```bash
-cd backend
-npm install
-node index.js
-```
-*The backend server will run on `http://localhost:5001`.*
-
-### 2. Start the Frontend Client
-Open a new terminal window, navigate to the frontend directory, install dependencies, and start React:
-```bash
-cd frontend
-npm install
-npm start
-```
-*The frontend application will run on `http://localhost:3000`.*
-
----
-
-*This project demonstrates a complete understanding of MERN-style architecture (swapping Mongo for a relational SQL DB), REST API design, state management, and modern cloud deployment workflows.*
