@@ -26,7 +26,7 @@ const Profile = () => {
                     }
 
                     if (token) {
-                        axios.get('http://localhost:5001/api/watchlist', {
+                        axios.get(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/watchlist`, {
                             headers: { Authorization: `Bearer ${token}` }
                         }).then(res => {
                             setWatchlist(res.data);
@@ -47,7 +47,7 @@ const Profile = () => {
         if (!token) return;
 
         try {
-            await axios.delete(`http://localhost:5001/api/watchlist/${movieId}`, {
+            await axios.delete(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/watchlist/${movieId}`, {
                 headers: { Authorization: `Bearer ${token}` }
             });
             setWatchlist(prev => prev.filter(movie => movie.movieId !== movieId));

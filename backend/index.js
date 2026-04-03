@@ -7,7 +7,7 @@ const Watchlist = require('./models/Watchlist'); // Import model to ensure it ge
 const User = require('./models/User'); // Ensure order before Watchlist
 
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 app.use(cors());
 app.use(express.json());

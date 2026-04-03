@@ -17,7 +17,7 @@ const HeroSlider = ({ items }) => {
             const token = localStorage.getItem('token');
             if (token) {
                 try {
-                    const res = await axios.get('http://localhost:5001/api/watchlist', {
+                    const res = await axios.get(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/watchlist`, {
                         headers: { Authorization: `Bearer ${token}` }
                     });
                     setAddedItemIds(new Set(res.data.map(movie => movie.movieId)));
@@ -63,7 +63,7 @@ const HeroSlider = ({ items }) => {
         };
 
         try {
-            await axios.post('http://localhost:5001/api/watchlist', watchlistItem, {
+            await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/watchlist`, watchlistItem, {
                 headers: { Authorization: `Bearer ${token}` }
             });
 

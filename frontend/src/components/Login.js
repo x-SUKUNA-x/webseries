@@ -27,7 +27,7 @@ const Login = ({ setIsAuthenticated, initialSignup = false }) => {
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post('http://localhost:5001/api/auth/login', loginData);
+            const res = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/login`, loginData);
             localStorage.setItem('token', res.data.token);
             localStorage.setItem('user', JSON.stringify(res.data.user));
             if (setIsAuthenticated) setIsAuthenticated(true);
@@ -44,10 +44,10 @@ const Login = ({ setIsAuthenticated, initialSignup = false }) => {
     const handleSignupSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post('http://localhost:5001/api/auth/signup', signupData);
+            const res = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/signup`, signupData);
 
             // Auto login after signup by hitting the login endpoint to get the token
-            const loginRes = await axios.post('http://localhost:5001/api/auth/login', {
+            const loginRes = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:5001'}/api/auth/login`, {
                 email: signupData.email,
                 password: signupData.password
             });
